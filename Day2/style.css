@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg{
+    position: absolute;
+    height: calc(100vh + 60px);
+    width: 100vw;
+    background: url("https://cdn.pixabay.com/photo/2023/09/20/20/17/skyline-8265564_1280.jpg")no-repeat center center/cover;
+    top: -30px;
+    left: -30px;
+    filter: blur(0px);
+    z-index: -1;
+}
+
+.load-text{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 50px;
+    z-index: 10;
+}
